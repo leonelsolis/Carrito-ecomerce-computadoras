@@ -1,7 +1,7 @@
 const productos = [
-  { id: 1, nombre: "Computadora gamer", precio: 1800000, imagen: "../img/pc-gamer.jpg" },
-  { id: 2, nombre: "Computadora de oficina", precio: 750000, imagen: "../img/pc-oficina.jpg" },
-  { id: 3, nombre: "Computadora para diseño grafico", precio: 1500000, imagen: "../img/pc-diseño.jpg" }
+  { id: 1, nombre: "Computadora gamer", precio: 1800000, imagen: "./img/pc-gamer.jpg" },
+  { id: 2, nombre: "Computadora de oficina", precio: 750000, imagen: "./img/pc-oficina.jpg" },
+  { id: 3, nombre: "Computadora para diseño grafico", precio: 1500000, imagen: "./img/pc-diseño.jpg" }
 ];
 
 let carrito = [];
