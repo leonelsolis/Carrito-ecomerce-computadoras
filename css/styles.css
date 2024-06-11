@@ -1,0 +1,122 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.producto {
+  width: 300px;
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.producto h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.producto p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.producto .precio {
+  font-weight: bold;
+  color: #333;
+}
+
+.producto button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.productos > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.productos label {
+  font-size: 14px;
+}
+
+.productos input {
+  padding: 5px;
+  font-size: 14px;
+  width: 100px;
+}
+
+.productos button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.carrito {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#tablaCarrito {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#tablaCarrito th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+}
+
+#tablaCarrito td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#tablaCarrito tfoot {
+  text-align: right;
+  font-weight: bold;
+}
+
+#vaciarCarrito, #finalizarCompra {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+}
